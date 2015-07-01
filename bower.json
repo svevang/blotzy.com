@@ -1,0 +1,15 @@
+{
+  "name": "blotzy.com",
+  "version": "0.0.0",
+  "authors": [
+    "Sam Vevang <sam.vevang@gmail.com>"
+  ],
+  "license": "none",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
