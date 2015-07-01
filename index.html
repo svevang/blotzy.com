@@ -5,23 +5,42 @@
     <meta charset="utf-8">
 
     <title>The HTML5 Herald</title>
-    <meta name="description" content="blotzy.com">
-    <meta name="author" content="blotzy">
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css?v=1.0">
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/mediaelement/build/mediaelement-and-player.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
     <!-- endbower -->
     <link rel="stylesheet" href="bower_components/mediaelement/build/mediaelementplayer.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <script src="build/blotzy.min.js"></script>
   </head>
 
   <body>
-    <audio src="magic-smelt-music/donquixotemusic/18%20Burlesque%20De%20Don%20Quixote,%20Tvw55,%20Ouverture.m4a" preload="none" controls></audio>
-    <audio src="magic-smelt-music/UnderTheRuglive.mp3" preload="none" controls></audio>
-    <video width="640" height="360" id="player1" preload="none">
-      <source type="video/youtube" src="https://www.youtube.com/watch?v=IAk928F_c1w" />
-    </video>
+
+    <div class="container">
+          <h2>UTR</h2>
+      <div class="row" id="utr">
+        <div class="col-xs-12 music">
+
+        </div>
+      </div>
+          <h2>Kalileh</h2>
+      <div class="row" id="kalileh">
+        <div class="col-xs-12 music">
+        </div>
+      </div>
+          <h2>DQ</h2>
+      <div class="row" id="dq">
+        <div class="col-xs-12 music">
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
