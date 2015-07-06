@@ -17,7 +17,10 @@ $(function(){
         _(audioFiles).chain().keys().map(function(key){
             console.log(key);
             _(audioFiles[key]).map(function(filename){
-                $('#'+key+' .col-xs-12').append('<audio src="magic-smelt-music/' + filename + '"></div>')
+                var $el = $('#'+key+' .col-xs-12');
+
+                $el.append('<p>' + filename + '</p>')
+                $el.append('<div class="music-player"><audio preload="none" src="magic-smelt-music/' + filename + '"></div>')
                 //$('#'+key).append()
             })
         })
