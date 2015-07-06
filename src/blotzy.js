@@ -1,7 +1,6 @@
 $(function(){
 
     var audioFiles = {
-        utr:   ["UnderTheRuglive.mp3"],
         kalileh: ["kalileh.mp3"],
         dq: [
             "quixote/18-Burlesque-De-Don-Quixote-Tvw55-Ouverture.mp3",
@@ -11,6 +10,7 @@ $(function(){
             "quixote/22-Burlesque-De-Don-Quixote-Tvw55-Sancho-Panza-Tossed-In-A-Blanket.mp3",
             "quixote/23-Burlesque-De-Don-Quixote-Tvw55-The-Galloping-Of-Rosinante-And-That-Of-Sancho's-Mule.mp3",
             "quixote/24-Burlesque-De-Don-Quixote-Tvw55-Quixote-Asleep.mp3"],
+        utr:   ["UnderTheRuglive.mp3"],
     }
 
      $(function(){
