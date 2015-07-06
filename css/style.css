@@ -1,1 +1,8 @@
-.music {height: 100px;}
+.music-player {
+  margin-bottom: 5px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
