@@ -26,6 +26,13 @@ $(function(){
         })
     $('video,audio').mediaelementplayer({
     features: ['playpause','progress','current','duration','tracks','volume','fullscreen']
+    }).on('timeupdate', function(e){
+        var timePlayingInSeconds = Math.round(e.target.currentTime);
+        var minutes = Math.floor(timePlayingInSeconds / 60);
+        var seconds = timePlayingInSeconds % 60;
+        if(seconds < 10)
+            seconds = "0" + seconds;
+        $('#counter').text(minutes + ':' + seconds);
     });
      })
 
