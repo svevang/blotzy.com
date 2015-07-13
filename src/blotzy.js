@@ -24,16 +24,21 @@ $(function(){
                 //$('#'+key).append()
             })
         })
-    $('video,audio').mediaelementplayer({
-    features: ['playpause','progress','current','duration','tracks','volume','fullscreen']
-    }).on('timeupdate', function(e){
-        var timePlayingInSeconds = Math.round(e.target.currentTime);
-        var minutes = Math.floor(timePlayingInSeconds / 60);
-        var seconds = timePlayingInSeconds % 60;
-        if(seconds < 10)
-            seconds = "0" + seconds;
-        $('#counter').text(minutes + ':' + seconds);
-    });
+
+        var updateTimer = _.debounce(function(target){
+            var timePlayingInSeconds = Math.round(target.currentTime);
+            var minutes = Math.floor(timePlayingInSeconds / 60);
+            var seconds = timePlayingInSeconds % 60;
+            if(seconds < 10)
+                seconds = "0" + seconds;
+            $('#counter').text(minutes + ':' + seconds);
+        }, 10);
+
+        $('video,audio').mediaelementplayer({
+            features: ['playpause','progress','current','duration','tracks','volume','fullscreen']
+        }).on('timeupdate', function(e){
+            updateTimer(e.target);
+        });
      })
 
 
