@@ -26,7 +26,7 @@ $(function(){
         })
 
         var updateTimer = _.debounce(function(target){
-            var timePlayingInSeconds = Math.round(target.currentTime);
+            var timePlayingInSeconds = Math.floor(target.currentTime);
             var minutes = Math.floor(timePlayingInSeconds / 60);
             var seconds = timePlayingInSeconds % 60;
             if(seconds < 10)
