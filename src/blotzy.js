@@ -53,6 +53,11 @@ $(function(){
         })
 
         var updateTimer = _.debounce(function(target){
+
+            if(target.tagName.toLowerCase() == "video"){
+                $('#counter').text('');
+                return;
+            }
             var timePlayingInSeconds = Math.floor(target.currentTime);
             var minutes = Math.floor(timePlayingInSeconds / 60);
             var seconds = timePlayingInSeconds % 60;
