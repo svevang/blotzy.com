@@ -17,7 +17,8 @@ body {
   padding: 10px;
   border-radius: 10px;
   text-shadow: 2px 2px 8px #FF0000;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: black;
+  border: solid 1px silver;
   color: white;
   z-index: 1;
 }
