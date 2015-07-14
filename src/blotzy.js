@@ -3,12 +3,12 @@ $(function(){
     var audioFiles = {
         kalileh: ["kalileh.mp3"],
         dq: [
-            "quixote/18-Burlesque-De-Don-Quixote-Tvw55-Ouverture.mp3",
+            "quixote/18-Burlesque-De-Don-Quixote-Tvw55-Library.mp3",
             "quixote/20-Burlesque-De-Don-Quixote-Tvw55-His-Attack-On-The-Windmills.mp3",
             "quixote/21-Burlesque-De-Don-Quixote-Tvw55-Sighs-Of-Love-For-Princess-Dulcinea.mp3",
-            "quixote/22-Burlesque-De-Don-Quixote-Tvw55-Sancho-Panza-Tossed-In-A-Blanket.mp3",
-            "quixote/23-Burlesque-De-Don-Quixote-Tvw55-The-Galloping-Of-Rosinante-And-That-Of-Sancho's-Mule.mp3",
-            "quixote/24-Burlesque-De-Don-Quixote-Tvw55-Quixote-Asleep.mp3"],
+            "quixote/22-Burlesque-De-Don-Quixote-Tvw55-Penance-in-the-Wilderness.mp3",
+            "quixote/23-Burlesque-De-Don-Quixote-Tvw55-Montesinos-Cave.mp3",
+            "quixote/24-Burlesque-De-Don-Quixote-Tvw55-Galloping-into-the-West.mp3"],
         utr:   ["UnderTheRuglive.mp3"],
     }
 
