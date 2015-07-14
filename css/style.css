@@ -12,7 +12,7 @@ body {
 #counter{
   position: fixed;
   font-size: 7em;
-  top: 10px;
+  top: 50px;
   left: 10px;
   padding: 10px;
   border-radius: 10px;
