@@ -4,6 +4,7 @@
 body {
   background-color: black;
   color: white;
+  margin-bottom: 200px;
 }
 #logo{
   border-radius: 25px;
