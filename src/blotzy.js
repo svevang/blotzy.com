@@ -32,6 +32,7 @@ $(function(){
             "15-07-13/00023.mp4",
             "15-07-13/00024.mp4",
             "15-07-14/complete-rehearsal-with-music.mp4",
+            "15-12-22/thursday-night.mp4"
         ]
     }
 
